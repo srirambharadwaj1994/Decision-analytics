@@ -10,6 +10,7 @@ for windowns user use the below for Cmake:
 //INCLUDE_DIRECTORIES(BEFORE "C:/Program Files/Gecode/include")
 //INCLUDE_DIRECTORIES(BEFORE "C:/Program Files/Gecode/bin")
 
+//Change below to your target folders
 add_executable(DA_cat_assignment cat_house.cpp)
 
 target_link_libraries(DA_cat_assignment "C:/Program Files/Gecode/lib/GecodeDriver-5-1-0-r-x64.lib")
